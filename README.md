@@ -2,6 +2,10 @@
 
 A chatbot that performs web searches on demand and notifies users with relevant results in real time.
 
+<p align="center">
+   <img src="assets/brand-img.png" alt="Prompt To Notify Brand" height="300" width="500"/>
+</p>
+
 ## Features
 
 - Conversational chatbot interface using Gradio
