@@ -1,7 +1,19 @@
 [project]
 name = "prompt-to-notify"
 version = "0.1.0"
-description = "Add your description here"
+description = "A chatbot that performs web searches on demand and notifies users with relevant results in real time."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+authors = [
+    { name = "Prathamesh Belurkar" }
+]
+dependencies = [
+    "gradio>=5.42.0",
+    "ipython>=9.4.0",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.5",
+    "langgraph-checkpoint-sqlite>=2.0.11",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+]
