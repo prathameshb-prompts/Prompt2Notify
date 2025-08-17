@@ -40,10 +40,14 @@ A chatbot that performs web searches on demand and notifies users with relevant 
 Create a `.env` file in the project root with the following variables:
 
 ```
-OPENAI_API_KEY=your_openai_api_key
-SERPER_API_KEY=your_serper_api_key
-PUSHOVER_TOKEN=your_pushover_app_token
-PUSHOVER_USER=your_pushover_user_key
+OPENAI_API_KEY=blah
+LANGSMITH_TRACING="true"
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="blah"
+LANGSMITH_PROJECT="blah"
+
+SERPER_API_KEY=blah
+PUSHOVER_TOKEN=blah
 ```
 
 ## Usage
